@@ -1,0 +1,172 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(194, 55, 55);
+    text-align: center;
+    
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(1, 97, 100);
+}
+body{
+    background: rgb(244, 198, 253);
+}
+li{
+   font-size: 18px;/*tamanho da fonte*/
+   font-family: 'Courier New', Courier, monospace;/* fonte da letra */
+   color: blue; /*cor das linhas */
+   padding-bottom: 5%;/*espaçamento entre itens da lista */
+   line-height: 150%;/* espaçamento entre linhas*/
+   margin-left: 10%;/*espaçamento entre a beirada esquerda*/
+   margin-right:0;/*espaçamento entre a beirada direita*/
+}
+.meuP{
+    color: cornflowerblue;
+   font-weight:  bold;/*fonte em negrito */
+}
+
+img{
+    width: 300px;
+    margin-left: 40%;
+
+}
+.meuimg{
+    width: 46%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+/*Formatação das divs*/
+
+.divmae{
+    width: 60%;
+    height: 450px;
+    background-color:rgb(219, 216, 216);
+    margin-left: 20%;
+}
+
+#div1{
+    width: 45%;
+    height:400px;
+    background-color: rgb(225, 180, 255);
+    position: relative;
+    float: right;
+    right:3%;/*Empurrar da direita*/
+    top: 5%;
+
+}
+#div2{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(206, 216, 151);
+    left: 3%;/*empurrar a partir da esquerda*/
+    position: relative;
+    top: 5%;/*empurra de cima para baixo*/
+}
+.imagemarte{
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.textoarte{
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+#div3{
+    width: 45%;
+    height:400px;
+    background-color: rgb(163, 226, 245);
+    position: relative;
+    float: right;
+    right:3%;/*Empurrar da direita*/
+    top: 5%;
+}
+#div4{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(102, 102, 102);
+    left: 3%;/*empurrar a partir da esquerda*/
+    position: relative;
+    top: 5%;/*empurra de cima para baixo*/
+}
+#div5{
+    width: 45%;
+    height:400px;
+    background-color: rgb(137, 95, 165);
+    position: relative;
+    float: right;
+    right:3%;/*Empurrar da direita*/
+    top: 5%;
+}
+#div6{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(180, 178, 178);
+    left: 3%;/*empurrar a partir da esquerda*/
+    position: relative;
+    top: 5%;/*empurra de cima para baixo*/
+}
+#div7{
+    width: 45%;
+    height:400px;
+    background-color: rgb(197, 64, 64);
+    position: relative;
+    float: right;
+    right:3%;/*Empurrar da direita*/
+    top: 5%;
+}
+#div8{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(241, 143, 52);
+    left: 3%;/*empurrar a partir da esquerda*/
+    position: relative;
+    top: 5%;/*empurra de cima para baixo*/
+}
+#div9{
+    width: 45%;
+    height:400px;
+    background-color: rgb(97, 135, 145);
+    position: relative;
+    float: right;
+    right:3%;/*Empurrar da direita*/
+    top: 5%;
+}
+#div10{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(102, 165, 247);
+    left: 3%;/*empurrar a partir da esquerda*/
+    position: relative;
+    top: 5%;/*empurra de cima para baixo*/
+}
+#div11{
+    width: 45%;
+    height:550px;
+    background-color: rgb(175, 59, 252);
+    position: relative;
+    float: right;
+    right:3%;/*Empurrar da direita*/
+    top: 5%;
+}
+#div12{
+    width: 45%;
+    height: 550px;
+    background-color: rgb(250, 41, 222);
+    left: 3%;/*empurrar a partir da esquerda*/
+    position: relative;
+    top: 5%;/*empurra de cima para baixo*/
+}
+#divF{
+    height:600px;
+}

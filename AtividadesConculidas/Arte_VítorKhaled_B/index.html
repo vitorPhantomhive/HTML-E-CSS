@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- o nome que aparece na guia-->
+    <title>Arte Digital</title>
+    
+    <style type="text/css">
+    /* Formatação da DIVPRINCIPAL*/
+    #divprincipal{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    /*Formatação da DIVBANNER*/
+    #divbanner{
+        width: 100%;
+        height: 350px;
+        background-color:rgb(183, 63, 199);
+    }
+
+    /* Formatação da DIVCONTEUDO*/
+    #divmenu{
+        width: 100%;
+        height: 50px;
+        background-color:rgb(149, 243, 149);
+    }
+    /*Formatação da DIVCONTEUDO*/
+    #divconteudo{
+        width: 100%;
+        height: 700px;
+        background-color:rgb(134, 153, 172);
+    }
+    /*Formatação do MENU*/
+    #menu ul {
+        padding:0px;
+        margin:0px;
+        background-color:rgb(149, 243, 149);
+        list-style:none;/*Tira o marcador de bolinha de listas*/
+    }
+    /* Colocando menu em linha */
+    #menu ul li { display: inline;
+                margin-left: 110px;
+    }
+    /* colocando menu em bloco */
+    #menu ul li a {
+    padding: 10px 20px;
+    display: inline-block;
+    /* visual do link */
+    background-color:rgb(149, 243, 149);
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    border-bottom:3px solid rgb(149, 243, 149);
+    font-size: 23px;
+}
+.formataiframe{
+    width: 100%;
+    height: 700px;
+    border: none;
+}
+
+    /*Rótulo do botão ao passar o mouse */
+    #menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+    body{
+        background-color: rgb(98, 241, 206);
+    }
+    </style>
+</head>
+<body>
+    
+    <div id = "divprincipal">
+        <div id="divbanner">
+            <center><img src="Banner_ArteDigital.jpg" width="1000" height="350"></center>
+        </div>
+        <div id="divmenu">
+            <nav id="menu"><!-- <nav> é um conteiner de menu -->    
+            <ul>
+            <li><a href="home.html" target="caixa">Home</a></li>
+            <li><a href="comosurgiu.html" target="caixa">Como Surgiu</a></li>
+            <li><a href="artedigital.html" target="caixa">O que é Arte Digital</a></li>
+            <li><a href="caracteristicas.html" target="caixa">Caracteristicas</a></li>
+            <li><a href="tiposdearte.html" target="caixa">Tipos de Arte</a></li>
+        </ul>
+        </nav>
+        </div>
+        <div id="divconteudo">
+            <iframe class="formataiframe" name="caixa" src="home.html">
+
+            </iframe>
+        
+        </div>
+    </div>
+</body>
+</html>
